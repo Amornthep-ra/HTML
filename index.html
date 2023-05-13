@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pieces · LAK Gallery</title>
-    <style>
+    <link rel="stylesheet" href="https:unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicon@2.1.4/css/boxicon.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="stayle.css">
+    <title>Cupcake</title>
+    <!-- <style>
         ul {
             list-style-type: none;
             margin: 0;
@@ -32,22 +33,58 @@
         }
     </style>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css"> -->
 </head>
 <body>
-    <div class="topnav">
-        <a href="#">LAK Gallery</a>
-        <a href="#">Menu</a>
-        <a href="#">Cart (0)</a>
+    <header>
+        <div class="logo">
+            Cupcake
+        </div>
+        <div class="icon-cart">
+            <img class="img/cupcakestrawberry.png">
+        </div>
+    </header>
+    <div>
+        <main>
+            <div class="title">
+                <h3>Enjoy testy Capake</h3>
+            </div>
+        </main>
     </div>
-    
-    <ul>
-        <li><a class="active" 
-            href="#home">Home</a></li>
-        <li><a href="#piecec">Piecec</a></li>
-        <li><a href="#design">Design</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#editorial">Editorial</a></li>
-    </ul>
+    <section id="tranding">
+        <div class="container"></div>
+        <div class="swiper tranding-slider"></div>
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+                <img src="img/cakecakestrawberry.png" alt="Tranding">
+            </div>
+        </div>
+
+        <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+                <img src="img/cakethumbnail.png" alt="Tranding">
+            </div>
+        </div>
+
+        <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+                <img src="img/cupcakethumbnail.png" alt="Tranding">
+            </div>
+        </div>
+    </section>
+
+    <div class="networks">
+        <i class='bx bxl-instagatm-alt bx-lg'></i>
+        <i class='bx bxl-tiktok-alt bx-lg'></i>
+        <i class='bx bxl-facebook-alt bx-lg'></i>
+        <i class='bx bxl-youtube-alt bx-lg'></i>
+    </div>
+    <main>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./script.js"></script>
+    </main>
 </body>
 </html>
